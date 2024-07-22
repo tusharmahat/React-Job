@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { FaArrowLeft, FaMapMarker } from 'react-icons/fa';
 import { useParams, useLoaderData, useRouteLoaderData, useNavigate } from 'react-router-dom'
+import { toast } from 'react-toastify';
 import { Link } from 'react-router-dom';
 
 // import Spinner from '../components/Spinner'
@@ -31,7 +32,8 @@ const JobPage = ({ deleteJob }) => {
         const confirm = window.confirm('Are you sure want to delete this listing?')
         if (!confirm) return;
         deleteJob(jobId);
-        navigate('/jobs')
+        toast.success('Job deleted successfully');
+        navigate('/jobs');
     }
 
     return (
