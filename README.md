@@ -1,5 +1,5 @@
 # React + Vite
-
+<img src="React-jobs.gif" alt="ReactJobs GIF" width="800" height="600">
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
