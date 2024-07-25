@@ -2,7 +2,7 @@
 
 A job search application built with React and Vite, using a mock JSON server for data. This app provides a simple interface to search and manage job listings, leveraging React's component-based architecture for a responsive and interactive user experience.
 
-<img src="React-jobs.gif" alt="ReactJobs GIF" width="1000" height="600">
+<img src="React-jobs.gif" alt="ReactJobs GIF" width="1100" height="600">
 ## Features
 - **CRUD Operations**: Create, Read, Update, and Delete job listings.
 - **Responsive Design**: Works well on both desktop and mobile devices.
@@ -128,5 +128,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Made with ❤️ by [Tushar Mahat](https://github.com/tusharmahat/)
 ```
-
-Replace `your-username` and `Your Name` with your actual GitHub username and name. Adjust any specific details about the project structure or setup as needed.
